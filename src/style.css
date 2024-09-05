@@ -1,0 +1,116 @@
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2F4F4F;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+/* Cabeçalho */
+header{
+    text-align: center;
+    background-color: black;
+    border: 3px;
+    box-shadow: 2px 2px 5px #262626;
+}
+.main{
+    text-align: justify;
+}
+.center{
+    text-align: center;
+}
+header img {
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}   
+#name{
+    display: inline;
+    margin: auto;
+}
+header p {
+    margin: auto;
+    text-align: center;
+}
+
+
+/* main */
+main{
+    display: flex;
+    justify-content: space-between;
+}
+aside{
+    padding: 10px;
+    width: 300px;
+}
+.esq{
+    padding: 100px 0px;
+}
+.right{
+    padding: 100px 0px 0px 0px;
+    margin: 15px;
+}
+.dir{
+    margin: 5px;
+}
+#direita{
+    text-align: justify;
+    padding-right: 30px;
+    background-color: #1d3131;
+    box-shadow:  -2px -1px 5px #152424;
+}
+#esquerda{
+    padding-left: 30px;
+    background-color: #1d3131;
+    box-shadow: 2px 2px 5px #152424;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    padding: 0px;
+}
+article{
+    padding: 10px;
+    width: 100%;
+}
+section{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+}
+aside h3{
+    text-align: center;
+}
+
+/* Rodapé */
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #1d3131;
+    box-shadow: 0px -2px 5px #152424;
+}
+footer a{
+    padding: 0px 20px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#git{
+    width: 30px;
+}
+#linkedin{
+    width: 30px;
+    border-radius: 10px;
+}
+#insta{
+    width: 30px;
+}
