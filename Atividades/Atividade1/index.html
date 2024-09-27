@@ -3,18 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/CSS/style.css">
-    <script src="src/js/approvado.js" defer></script>
-    <script src="src/js/segurança.js"></script>
-
-    <title>Estudos JavaScript</title>
+    <link rel="stylesheet" href="src/style.css">
+    <title>Layout Perfil Pessoal</title>
 </head>
 <body>
+    <header>
+        <img src="src/Img/20221115_141726782_iOS.jpg" alt="Perfil">
+        <h2 id="name">Caio Morelli</h2>
+        <p>Ola, sou um aspirante a programador!</p>
+    </header>
     <main>
-        <header>
-            <button>result</button>
-            <h1 id="exibir"></h1>
-        </header>
+        <aside id="esquerda">
+            <ul>
+                <li class="esq">Rua Madame Pommery 800, Suzano São Paulo</li>
+                <li class="esq">DSM - Desenvolvimento de Software Multiplataform | Fatec Itaquera</li>
+                <li class="esq">E-Mail - caiomorelli.it@gmail.com</li>
+                
+            </ul>
+        </aside>
+        <article>
+            <section class="main">
+                <h1 class="center">Biografia</h1>
+                <h3 class="center">Do Som para o Código: Minha História</h3>
+                <p>Sempre fui fascinado pelo mundo da tecnologia. Desde criança, desmontava brinquedos para entender como funcionavam e passava horas em frente ao computador, explorando seus mistérios. A paixão pela área era inegável, mas a vida me levou por outro caminho: o mundo do áudio.</p>   
+                <p>Me dediquei à música, trabalhando como profissional na area do audio por 8 anos anos. Durante esse período, aprimorei meu conhecimento técnico, aprendendo sobre equipamentos, softwares de edição e produção musical. A experiência, embora diferente do meu sonho inicial, moldou minha mentalidade, desenvolvendo minha criatividade, organização e capacidade de solucionar problemas.</p>     
+                <p>No entanto, a chama da tecnologia nunca se apagou. Com o passar do tempo, percebi que a área de desenvolvimento de software era onde eu realmente queria estar. A possibilidade de criar algo do zero, de dar vida a ideias através do código, me atraía irresistívelmente.</p>   
+                <p>Decidido a realizar meu sonho, iniciei minha jornada no mundo da programação. Mergulhei em cursos online, livros e comunidades de desenvolvedores, absorvendo conhecimento com a mesma paixão que dedicava à música. Aprender novas linguagens de programação, frameworks e ferramentas se tornou meu novo hobby, e me dedicava a cada desafio com entusiasmo.</p>
+                <p>Hoje, estou dando meus primeiros passos como desenvolvedor de software. Me dedico a projetos pessoais, aprimorando minhas habilidades e construindo um portfólio. Minha experiência em áudio, aliada à minha paixão pela tecnologia, me torna um profissional versátil e criativo, pronto para enfrentar os desafios do mercado.</p>
+                <p>Minha história é um exemplo de que nunca é tarde para perseguir seus sonhos. A paixão, a dedicação e a busca por conhecimento são as ferramentas mais importantes para alcançar o sucesso em qualquer área da vida.</p>
+            </section>
+            <section class="main">
+                <h1 class="center">Experiência Profissional</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga amet sunt iste, neque reiciendis vel nulla debitis, deleniti optio impedit dicta error. Debitis exercitationem harum eligendi dolores, doloribus veniam voluptate.</p>
+            </section>
+            <section class="main">
+                <h1 class="center">Projetos</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam veritatis, veniam voluptatum ea quae beatae modi eum aspernatur hic eligendi sapiente iusto illo voluptatem quia. In neque aut doloribus praesentium.</p>
+            </section>
+        </article>
+        <aside id="direita">
+            <h3 class="right">Tecnologias</h3>
+            <ul class="dir">
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>C#</li>
+                <li>PHP</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+            <h3 class="right">Idiomas</h3>
+            <ul class="dir">
+                <li>Inglês</li>
+                <li>Espanhol</li>
+                <li>Português</li>
+            </ul>
+        </aside>
     </main>
+    <footer>
+        <a href="https://www.instagram.com/caio.morelli1/"><img src="src/Img/instagram-logo.png" alt="Link Instagram logotype" id="insta">Instagram</a>
+        <a href="https://www.linkedin.com/in/caio-morelli-9ab22b324/"><img src="src/Img/logotipo-linkedin_578229-227.jpg.avif" alt="Link LinkedIn Logotype" id="linkedin">LinkedIn</a>
+        <a href="https://github.com/morellicai"><img src="src/Img/25231.png" alt="Link GitHub Logotype" id="git">github</a>
+    </footer>
 </body>
 </html>
