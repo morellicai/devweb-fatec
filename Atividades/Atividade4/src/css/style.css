@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 10px;
+    font-family: normal, arial, helvetica, sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerIn{
+    width: 41vw;
+    max-width: 515px;
+    border: 1px solid #000;
+    padding: 20px;
+    background-color: aquamarine;
+    border-radius: 30px;
+    box-shadow: 0 0 20px #464646;
+}
+.title{
+    margin: 30px;
+}
+.result{
+    display: none;
+}
+.title-pag{
+    font-size: 3rem;
+    text-align: center;
+}
+.busca{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+#busca{
+    padding: 5px;
+    border: 1px solid #000;
+    border-width: 0 0 1px;
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+}
+#busca:focus{
+    border: 1px solid #000;
+    border-width: 0 0 1px;
+}
+.product{
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+#product-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5px;
+}
+label{
+    font-size: 1.1rem;
+}
+.carrinho-compras h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.checkout h3{
+    font-size: 1.2rem;
+}
+.checkout h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+button{
+    padding: 5px;
+    border: none;
+    background-color: rgb(38, 130, 66);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.title-busca{
+    text-align: center;
+    margin: 20px;
+}
